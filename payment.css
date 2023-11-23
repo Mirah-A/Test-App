@@ -1,5 +1,9 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
+
+body {
+}
+
 .row {
     display: flex;
     text-align: center;
@@ -10,5 +14,8 @@
     height: 500px;
     padding: 10px;
     text-align: center;
-    border-style: solid
+    
+    border: 1px solid;
+    border-radius: 25px;
+    color: #FFC300; 
 }
