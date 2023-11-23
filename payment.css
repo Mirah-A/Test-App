@@ -1,15 +1,14 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
 .row {
-
-
-
+    display: flex;
 }
 
-
 .column {
+    flex: 33.33%;
     float: left;
-    text-align: center;
-    width: 33.33%;
+    height: 500px;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
