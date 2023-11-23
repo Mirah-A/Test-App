@@ -4,6 +4,10 @@
 body {
 }
 
+h1{
+    text-align: center;
+}
+
 .row {
     display: flex;
     text-align: center;
@@ -16,6 +20,6 @@ body {
     text-align: center;
     
     border: 1px solid;
-    border-radius: 25px;
-    color: #FFC300; 
+    /*border-radius: 25px;*/
+    background-color: #FFC300; 
 }
