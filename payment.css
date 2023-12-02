@@ -1,7 +1,7 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
 
-
+/* payment css */ 
 h1 {
     text-align: center;
 }
@@ -19,11 +19,14 @@ h1 {
     text-align: center;
     background-color: white; 
     border: 1px solid black;
-    border-radius: 50px;
+    border-radius: 30px;
 
 }
 
 
+
+
+/* main css */ 
 body{
     background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
     text-align: center;
