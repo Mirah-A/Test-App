@@ -5,6 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="payment.css" title="style" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title> Payment </title>
 </head>
 <body>
@@ -25,10 +26,16 @@
 
     <form method="POST" action="">
         <p>
-            Cardholder Name: <input type ="text" name ="c_name" /> <br />
-            Card Number: <input type ="text" name ="c_num" /> <br />
-            Expiry(MM/YY): <input type ="text" name ="c_expire" /> <br />
-            CVC: <input type ="text" name ="cvc" /> <br />
+            Cardholder Name: <br />
+            <i class="bi bi-credit-card"></i>
+            <input type ="text" name ="c_name" /> <br />
+
+            Card Number: <br />
+            <input type ="text" name ="c_num" /> <br />
+            Expiry Date (MM/YY): <br />
+            <input type ="text" name ="c_expire" /> <br />
+            CVC: <br />
+            <input type ="text" name ="cvc" /> <br />
             <input type="submit" value="Submit Payment"/> <br /> <br />
         </p>
     </form>
