@@ -47,7 +47,7 @@ h1 {
 	padding: 10px;	
 	border-radius: 10px; 
 	border: 1px solid rgba(0,0,0,.3);
-	color: #C0C0C0;
+	color: darkgray;
 }
 
 .payment_form form .adjacent_box {
