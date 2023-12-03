@@ -1,11 +1,11 @@
 
-<!-- Amirah Elgendy - Payment/Subscription HTML Page -->
+<!-- Amirah Elgendy - Payment/Subscription PHP Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="payment.css" title="style" /> 
-    <title> Subscription Options </title>
+    <title> Payment </title>
 </head>
 <body>
 
@@ -21,70 +21,17 @@
         </nav>
     </header>
 
-    <h1> Subscription Plans </h1> 
+    <h1> Payment Method: Credit/Debit Card Only </h1> 
 
-    <div class="row">
-        <div class="column">
-
-            <h2> Monthly </h2>
-
-            <p> this is a sample paragraph of text
-                to fill the page and make a layout 
-                to put the button towards the bottom
-                of the screen. and make the payment 
-                plan page or subscription 
-                after some text is written 
-                <br />
-
-                For this plan, you will make 
-                a payment each month.
-                <br />
-            </p>
-
-            <button type="button">Select Plan</button>
-
-        </div>
-        <div class="column">
-
-            <h2> Annual </h2>  
-
-            <p> this is a sample paragraph of text
-                to fill the page and make a layout 
-                to put the button towards the bottom
-                of the screen. and make the payment 
-                plan page or subscription 
-                after some text is written 
-                <br />
-
-                For this plan, you will make 
-                a payment each year.
-                <br />
-            </p>
-
-            <button type="button">Select Plan</button>
-
-        </div>
-        <div class="column">
-
-            <h2> Pay-As-you-go </h2>
-
-            <p> this is a sample paragraph of text
-                to fill the page and make a layout 
-                to put the button towards the bottom
-                of the screen. and make the payment 
-                plan page or subscription 
-                after some text is written 
-                <br />
-
-                For this plan, you will pay for 
-                what you use as you go. 
-                <br />
-            </p>
-
-            <button type="button">Select Plan</button>
-
-        </div>
-    </div>
+    <form method="POST" action="">
+        <p>
+            Cardholder Name: <input type ="text" name ="c_name" /> <br />
+            Card Number: <input type ="text" name ="c_num" /> <br />
+            Expiry(MM/YY): <input type ="text" name ="c_expire" /> <br />
+            CVC: <input type ="text" name ="cvc" /> <br />
+            <input type="submit" value="Submit"/> <br /> <br />
+        </p>
+    </form>
 
     <footer>
         <p>&copy; HNF+  All rights reserved.</p>
