@@ -36,6 +36,12 @@ margin-top: 20px;
 
 }
 
+.payment_form form .payment_box span{
+	display: block;
+	color: whitesmoke;
+	padding-bottom: 5px;
+}
+
 
 /* main css */ 
 body{
