@@ -4,7 +4,6 @@
 /* payment css */ 
 h1 {
     text-align: center;
-	padding: 20px;
 }
 
 .row {
@@ -29,9 +28,13 @@ h1 {
 	padding: 10px;
 	width: 700px;
 	border-radius: 10px;
-	box-shadow: 0 5px 10px whitesmoke;
+	box-shadow: 0 5px 10px gray;
 }
 
+.payment_form form .payment_box {
+margin-top: 20px;
+
+}
 
 
 /* main css */ 
