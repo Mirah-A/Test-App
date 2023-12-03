@@ -29,7 +29,7 @@ h1 {
 	width: 50%;
 	margin: auto;
 	border-radius: 10px;
-	box-shadow: 0 5px 10px gray;
+	box-shadow: 5px 10px;
 }
 /*
 .payment_form form .payment_box {
