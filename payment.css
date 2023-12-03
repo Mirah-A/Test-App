@@ -37,11 +37,34 @@ h1 {
 	margin-top: 20px;
 }
 
-.payment_form form .payment_box span{
+.payment_form form .payment_box span {
 	display: block;
 	padding: 5px;
 }
 
+.payment_form form .payment_box input {
+	width: 100%;
+	padding: 10px;	
+	border-radius: 10px; 
+	border: 1px solid rgba(0,0,0,.3);
+}
+
+.payment_form form .adjacent_box {
+	display: flex;
+}
+
+.payment_form form .adjacent_box .payment_box {
+	flex: 1 1 100px;
+
+}
+
+.payment_form form submit-btn {
+	width: 100%; 
+}
+
+.payment_form form submit-btn:hover {
+	opacity: .5;
+} 
 
 
 
