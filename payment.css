@@ -29,7 +29,7 @@ h1 {
 	width: 50%;
 	margin: 20px auto;
 	border-radius: 10px;
-	box-shadow: 5px 10px;
+	box-shadow: 5px 10px rgb(0, 0, 0, 0.2);
 
 }
 
@@ -39,7 +39,7 @@ h1 {
 
 .payment_form form .payment_box span{
 	display: block;
-	padding-bottom: 5px;
+	padding: 5px;
 }
 
 
