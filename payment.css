@@ -23,7 +23,13 @@ h1 {
 
 }
 
-
+.payment_form {
+	background-color: white;
+	padding: 10px;
+	width: 700px;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px whitesmoke;
+}
 
 
 
