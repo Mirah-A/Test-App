@@ -20,9 +20,7 @@ h1 {
     background-color: white; 
     border: 1px solid black;
     border-radius: 40px;
-	position: absolute;
-  	top: 50%;
-	transform: translateY(-50%);
+	
 }
 
 .payment_form {
