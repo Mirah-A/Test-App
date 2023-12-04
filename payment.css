@@ -17,11 +17,10 @@ h1 {
     padding: 10px;
     margin: auto;
     text-align: center;
-	display: block;
     background-color: white; 
     border: 1px solid black;
     border-radius: 40px;
-	vertical-align: middle;
+	transform: translateY(-50%);
 }
 
 .payment_form {
