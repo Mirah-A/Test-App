@@ -1,5 +1,11 @@
 /* Amirah Elgendy - Payment/Subscription CSS */ 
 
+/* Logo CSS 
+.logo {
+	float: left;
+	display: flex;
+}
+*/
 
 /* payment css */ 
 h1 {
@@ -61,7 +67,16 @@ h1 {
 }
 
 
+/* Wellness Calendar CSS */ 
+.entry_form {
+	background-color: white;
+	padding: 10px;
+	width: 50%;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
 
+}
 
 
 
@@ -84,6 +99,7 @@ background-repeat: no-repeat;*/
 	border: groove #CCCCCC 8px;
 	
 }
+
 .Sign-In{
 	background-color: white;
 	width: 450px;
@@ -313,4 +329,11 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
+}
+
+
+/* Logo CSS */
+.logo {
+	float: left;
+	display: flex;
 }
